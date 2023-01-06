@@ -11,11 +11,11 @@ ignite chain serve
 
 ### Configure
 
-Your blockchain in development can be configured with `config.yml`. To learn more, see the [Ignite CLI docs](https://docs.ignite.com).
+Your blockchain in development can be configured with `config.yml`.
 
 ### Web Frontend
 
-Ignite CLI has scaffolded a Vue.js-based web app in the `vue` directory. Run the following commands to install dependencies and start the app:
+Cosmos SDK has scaffolded a Vue.js-based web app in the `vue` directory. Run the following commands to install dependencies and start the app:
 
 ```
 cd vue
