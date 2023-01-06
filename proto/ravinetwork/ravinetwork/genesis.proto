@@ -1,0 +1,14 @@
+syntax = "proto3";
+package ravinetwork.ravinetwork;
+
+import "gogoproto/gogo.proto";
+import "ravinetwork/ravinetwork/params.proto";
+// this line is used by starport scaffolding # genesis/proto/import
+
+option go_package = "ravi-network/x/ravinetwork/types";
+
+// GenesisState defines the ravinetwork module's genesis state.
+message GenesisState {
+  Params params = 1 [(gogoproto.nullable) = false];
+  // this line is used by starport scaffolding # genesis/proto/state
+}
